@@ -1,0 +1,23 @@
+<!--
+  TEMPLATE HTML LIE INTRINSEQUEMENT avec l'instance du Composant
+  On ne manipule que les données publiques de notre composant
+-->
+
+<div>
+  <h1>Liste des Customers</h1>
+  <ul>
+    <li *ngFor="let item of customers" > {{item.id}} - {{item.name}} - {{item.societe}}
+      <br>
+      <button (click)="update(item)"> UPDATE </button><br>
+      <button (click)="delete(item)"> DELETE </button></li>
+  </ul>
+
+  <br><br>
+  <hr>
+  <button (click)="add()"> ADD </button><br>
+
+  <hr>
+
+  <div [appListecustomers]="customers"></div>
+</div>
+

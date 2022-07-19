@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "customers": [
+    {
+      "dateCreation": "2022-07-18T10:03:58.827Z",
+      "name": "D12 0100010001000100010001",
+      "societe": "DIGI",
+      "id": 3
+    },
+    {
+      "dateCreation": "2022-07-18T10:03:59.589Z",
+      "name": "D12 01",
+      "societe": "DIGI",
+      "id": 4
+    },
+    {
+      "dateCreation": "2022-07-18T12:14:20.360Z",
+      "name": "D12 01",
+      "societe": "DIGI",
+      "id": 6
+    },
+    {
+      "dateCreation": "2022-07-18T12:25:37.509Z",
+      "name": "D12 01",
+      "societe": "DIGI",
+      "id": 8
+    },
+    {
+      "dateCreation": "2022-07-18T12:55:16.845Z",
+      "name": "D12 0100010001",
+      "societe": "DIGI",
+      "id": 12
+    },
+    {
+      "dateCreation": "2022-07-18T13:02:12.932Z",
+      "name": "D12 01",
+      "societe": "DIGI",
+      "id": 13
+    },
+    {
+      "dateCreation": "2022-07-18T13:02:14.253Z",
+      "name": "D12 01",
+      "societe": "DIGI",
+      "id": 14
+    }
+  ],
+  "products": []
+}
